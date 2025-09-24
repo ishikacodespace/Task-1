@@ -1,39 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Netflix Dataset Cleaning – Task 1</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-            max-width: 900px;
-        }
-        h1, h2 {
-            color: #2c3e50;
-        }
-        ul {
-            margin-left: 20px;
-        }
-        code {
-            background-color: #f4f4f4;
-            padding: 2px 5px;
-            border-radius: 4px;
-        }
-        .file-list li {
-            margin-bottom: 5px;
-        }
-    </style>
-</head>
-<body>
-    <h1>Netflix Dataset Cleaning – Task 1</h1>
 
-    <h2>Objective</h2>
+<h1>Netflix Dataset Cleaning – Task 1</h1>
+
+<h2>Objective</h2>
     <p>Clean and preprocess the Netflix dataset to make it ready for analysis.</p>
 
-    <h2>Steps Performed</h2>
+<h2>Steps Performed</h2>
     <ol>
         <li>
             <strong>Loaded Dataset</strong>
@@ -87,15 +58,13 @@
         </li>
     </ol>
 
-    <h2>Outcome</h2>
+<h2>Outcome</h2>
     <p>The dataset is now free of missing values, duplicates, and inconsistencies. Column names and text formats are uniform, dates are properly formatted, and numeric values are ready for analysis.</p>
 
-    <h2>Files in this Repository</h2>
+<h2>Files in this Repository</h2>
     <ul class="file-list">
         <li><code>netflix_titles.csv</code> – Raw dataset.</li>
         <li><code>task1_cleaning.py</code> – Python script for cleaning the dataset.</li>
         <li><code>cleaned_netflix_dataset.csv</code> – Cleaned and preprocessed dataset.</li>
         <li><code>README.md</code> – Summary of the cleaning process.</li>
     </ul>
-</body>
-</html>
